@@ -13,7 +13,7 @@ def main():
     print(print_part(part))
 
     for i in range(5):
-        seed = seed[1:] + seed[0]
+        seed = seed[-1] + seed[:-1]
         print(print_part(gen_part(seed)))
 
 

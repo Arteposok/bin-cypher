@@ -1,10 +1,9 @@
 INSTRUCTIONS
 Take the coordinates of a letter,
-you should write them in binary
-and for all 1-bits substitute
-the letter from the key that
-corresponds with it's part
-and place value.
+in the format x-y , convert them to
+binary, repleace 1-bits with the letter
+corresponding to it in the key and ommit
+all zeros.
 key used = abc def (only a-f allowed)
 1. C | 2. C=3-1 | 3. 3-1 = 011-001
 4. 011-001 = bc-f (only the letters
