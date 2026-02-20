@@ -1,0 +1,27 @@
+You take the coordinates of a letter,
+write them in binary, substitute key
+letters for corresponding place values
+excoding 1-bits for the x and y
+1. Write out plaintext: e.g: CAT
+2. Get a the FIRST key from the 
+keylist, find example below:
+    abc def
+    fab cde
+    efa bcd ...
++the fist part of the key corresponds
+to x-axis and second to y-axis
+same as the unencripted version.
++only letters a-f are allowed in key
+thus key(first) = abc def
+3. Write coordinates: (3,1): 3-1
+4. Write binary coordinates
+3 = 011
+1 = 001
+5. Use key
+011-001
+ ||   |
+abc-def
+bc-f
+6. Encrypt the next letter with the
+next key in the keylist until it runs
+out, then start from the beginning again
