@@ -1,7 +1,16 @@
-  1 2 3 4 5 6
-1 a b c d e f
-2 g h i j k l
-3 m n o p q r
-4 s t u v w x
-5 y z . , ( )
-6 " ' -    
+  1 2 3 4 5 6| 1 2 3 4 5 6 7 8 9 10
+1 a b c d e f| a b c d e f g h i j
+2 g h i j k l| 11 12 13 14 15 16 17 18 19 20
+3 m n o p q r| k  l  m  n  o  p  q  r  s  t
+4 s t u v w x| 21 22 23 24 25 26
+5 y z . , ( )| u  v  w  x  y  z
+6 " ' -      |
+always write the x first and then the y
+because the key uses this order.
+
+if you divide the letter position in the
+alphabet by 6 (with remainder), then
+the remainder is the column and the value
+plus 1 equals the row
+
+e.g. w = 23 23 / 6 = 3 | 5, 3+1 = 4, w = 5-4
