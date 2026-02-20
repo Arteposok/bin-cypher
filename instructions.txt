@@ -1,3 +1,4 @@
+INSTRUCTIONS
 Take the coordinates of a letter,
 you should write them in binary
 and for all 1-bits substitute

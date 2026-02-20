@@ -1,6 +1,4 @@
-abc def
-bcd efa
-cde fab
-def abc
-efa bcd
-fab cde
+KEYLIST
+abc def  |  bcd efa
+cde fab  |  def abc
+efa bcd  |  fab cde
