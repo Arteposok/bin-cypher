@@ -1,9 +1,9 @@
 KEYLIST
-   1         2
-fcd aeb | bfc dae
-ebf cda | aeb fcd
-dae bfc | cda ebf
-<go to 2><return>
-start from 1, go down the column
-at the bottom go to 2, when 2 finishes
-use 1 again and so on.
+
+fcd aeb
+bfc dae
+ebf cda
+aeb fcd
+dae bfc
+cda ebf
+<start over>
