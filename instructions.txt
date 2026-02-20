@@ -1,17 +1,12 @@
-message -> letter -> coordinates.
-coordinates -> binary -> key -> replace
-1-bits with key letter corresponding to
-fragment and place value -> repeat for next
-letter with next key.
-1. CAT
-2. C
-3. 3-1
-4. 011-1
-5. keylist e.g
-abc def
-bcd efa
-cde fab ...
-6. 011-001
-    ||   |
-   abc def
-7. bc-f
+Take the coordinates of a letter,
+you should write them in binary
+and for all 1-bits substitute
+the letter from the key that
+corresponds with it's part
+and place value.
+1. C | 2. C=3-1 | 3. 3-1 = 011-001
+4. 011-001 = bc-f (only the letters
+that would correspond to 1-bits
+if written underneath)
+5. take the next key from the key list
+and apply to the next letter the same way
