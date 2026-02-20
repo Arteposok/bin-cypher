@@ -9,9 +9,9 @@ ALPHABET AND REFERENCES
 always write the x first and then the y
 because the key uses this order.
 
-if you divide the letter position in the
-alphabet by 6 (with remainder), then
-the remainder is the column and the value
-plus 1 equals the row
+if n = letter position in alphabet,
+n0 = n-1
+then column = n/6(with remainder) + 1
+then row = n/6(remainder itself) + 1
 
 e.g. w = 23 23 / 6 = 3 | 5, 3+1 = 4, w = 5-4

@@ -1,4 +1,4 @@
-KEYLIS
+KEYLIST
 abc def  ->  bcd efa ->
 cde fab  ->  def abc ->
 efa bcd  ->  fab cde -> (start from beginning)
